@@ -41,3 +41,10 @@ let [firstSong, secondSong, ...otherSongs] = favSongs
 console.log(firstSong, secondSong);
 console.log(favSongs[4]);
 console.log(otherSongs);
+
+
+let arr1 =['a','b','c'];
+let arr2 =['d','e','f'];
+
+let newArr = [...arr1,...arr2];
+console.log(newArr)
